@@ -1,88 +1,74 @@
-from nltk.tokenize import sent_tokenize,word_tokenize
-from nltk.corpus import stopwords
-from collections import defaultdict
-from string import punctuation
+import FrequencySummarizer
 from heapq import nlargest
-from collections import Counter
-
-class FrequencySummarizer:
-  def __init__(self, min_cut=0.1, max_cut=0.9):
-    """
-     Initilize the text summarizer.
-     Words that have a frequency term lower than min_cut 
-     or higer than max_cut will be ignored.
-    """
-    self._min_cut = min_cut
-    self._max_cut = max_cut 
-    self._stopwords = set(stopwords.words('english') + list(punctuation))
-
-  def _compute_frequencies(self, word_sent):
-    """ 
-      Compute the frequency of each of word.
-      Input: 
-       word_sent, a list of sentences already tokenized.
-      Output: 
-       freq, a dictionary where freq[w] is the frequency of w.
-    """
-    freq = Counter()
-    for s in word_sent:
-      for word in s:
-        if word not in self._stopwords:
-          freq[word] += 1
-    # frequencies normalization and fiteringz
-    new_freq = Counter()
-    m = float(max(freq.values()))
-    for w in freq.keys():
-      val = freq[w]/m
-      if val < self._max_cut and val > self._min_cut:
-        new_freq[w] = val
-    return new_freq
-
-  def summarize(self, text, n):
-    """
-      Return a list of n sentences 
-      which represent the summary of text.
-    """
-    sents = sent_tokenize(text)
-    assert n <= len(sents)
-    word_sent = [word_tokenize(s.lower()) for s in sents]
-    self._freq = self._compute_frequencies(word_sent)
-    ranking = defaultdict(int)
-    for i,sent in enumerate(word_sent):
-      for w in sent:
-        if w in self._freq:
-          ranking[i] += self._freq[w]
-    sents_idx = self._rank(ranking, n)    
-    return [(sents[j], ranking[j]) for j in sents_idx]
-
-  def _rank(self, ranking, n):
-    """ return the first n sentences with highest ranking """
-    return nlargest(n, ranking, key=ranking.get)
+from shutil import copy, rmtree
+from random import shuffle
+import glob
+import os
 
 
-file = open("002.txt", "r").read()
-paragraph = file.split("\n")
+POLITICS = os.getcwd() + "\\bbc\\politics"
+SPORTS = os.getcwd() + "\\bbc\\sport"
+TECH = os.getcwd() + "\\bbc\\tech"
 
-n = 3
-relevant = {}
-dic = {}
-fs = FrequencySummarizer()
-for p in paragraph[1:]:
-  if len(p) > 1:
-    chocolate = fs.summarize(p,1)
-    if len(chocolate) > 1:
-      sentence, rank = chocolate[0]
-      dic[paragraph.index(p)] = sentence
-      relevant[paragraph.index(p)] = rank
+def summarise(filename, n=3):
 
-if len(relevant) < n:
-  n = len(relevant)
-rel_ind = nlargest(n, relevant, key=relevant.get)
-for i in sorted(rel_ind):
-  print(dic[i])
-print(rel_ind)
+    fs = FrequencySummarizer.FrequencySummarizer()
+    file = open(filename, "r").read()
+    old_text = file.split("\n")[1:]
+    text = list(filter(lambda a: a != '', old_text))
+    if len(text) >= n:    
+        relevant = {}
+        dic = {}
+  
+        for p in text:
+            summary = fs.summarize(p,1)
+            sentence, rank = summary[0]
+            dic[text.index(p)] = sentence
+            relevant[text.index(p)] = rank
+    
+        rel_ind = nlargest(n, relevant, key=relevant.get)
+        p_summ = ""
+        for i in sorted(rel_ind):
+            p_summ += dic[i] + '\n'
+        return p_summ
+    else:
+        summary = fs.summarize(" ".join(text),n)
+        p_summ = ""
+        for s in summary:
+            p_summ += s[0]
+        return p_summ
+
+def choose_radomised_texts(folder_path, folder_destination, n=6):
+    rmtree(folder_destination)
+    os.makedirs(os.getcwd() + '\\' + folder_destination)
+    filenames = glob.glob(folder_path + "/*.txt")
+    shuffle(filenames)
+    for text in filenames[:6]:
+        copy(text, folder_destination)
+
+def G3(folder):
+    filenames = glob.glob(folder + "/*.txt")[:6]
+    filename = folder + '/' + folder + '.txt'
+    try:
+        os.remove(filename)
+    except OSError:
+        pass
+    file = open(filename, 'w')
+
+    for text in filenames:
+        summary = summarise(text, 3)
+        file.write(text + '\n')
+        file.write(summary)
+        file.write('\n\n')
+    file.close()
 
 
 
 
+choose_radomised_texts(POLITICS, "politics")
+choose_radomised_texts(TECH, "tech")
+choose_radomised_texts(SPORTS, "sport")
 
+G3("politics")
+G3("tech")
+G3("sport")
