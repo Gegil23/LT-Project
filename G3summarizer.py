@@ -48,11 +48,20 @@ def choose_radomised_texts(folder_path, folder_destination, n=6):
 
 def G3(folder):
     filenames = glob.glob(folder + "/*.txt")[:6]
+    #filename = folder + '/' + folder + '.txt'
+
+    for text in filenames:
+        filename = folder + '\\' + "summary_G3_" + text[-7:]
+        file = open(filename, 'w')
+        summary = summarise(text, 3)
+        file.write(text + '\n')
+        file.write(summary)
+        file.write('\n\n')
+    file.close()
+
+def G3_1(folder):
+    filenames = glob.glob(folder + "/*.txt")[:6]
     filename = folder + '/' + folder + '.txt'
-    try:
-        os.remove(filename)
-    except OSError:
-        pass
     file = open(filename, 'w')
 
     for text in filenames:
@@ -65,10 +74,10 @@ def G3(folder):
 
 
 
-choose_radomised_texts(POLITICS, "politics")
-choose_radomised_texts(TECH, "tech")
-choose_radomised_texts(SPORTS, "sport")
+#choose_radomised_texts(POLITICS, "politics")
+#choose_radomised_texts(TECH, "tech")
+#choose_radomised_texts(SPORTS, "sport")
 
-G3("politics")
-G3("tech")
-G3("sport")
+G3_1("politics")
+G3_1("tech")
+G3_1("sport")

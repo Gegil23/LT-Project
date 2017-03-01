@@ -1,0 +1,6 @@
+tech\101.txt
+Surfers outside the US have been unable to visit the official re-election site of President George W Bush.
+The blocking does not appear to be due to an attack by vandals or malicious hackers, but as a result of a policy decision by the Bush camp.
+The international exclusion zone around georgewbush.com was spotted by net monitoring firm Netcraft which keeps an eye on traffic patterns across many different sites.
+
+
