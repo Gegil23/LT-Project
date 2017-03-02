@@ -1,6 +1,0 @@
-tech\368.txt
-Data gathered will be passed to police to help build up intelligence about who is behind worm outbreaks and denial of service attacks.
-"We have seen attacks involving five and ten gigabytes of traffic," said Rob Pollard, sales director for Arbor Networks which is behind the fingerprinting system.
-"What we want to do is help net service firms communicate with each other and then push the attacks further and further back around the world to their source," said Mr Pollard.
-
-

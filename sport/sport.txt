@@ -1,27 +1,30 @@
-sport\033.txt
-Greek sprinters Kostas Kenteris and Katerina Thanou have been suspended after failing to take drugs tests before the Athens Olympics.
-Kenteris, the 2000 Olympic 200m champion, and Thanou, the women's 100m silver medallist from the same Games in Sydney, also face a criminal hearing in Greece over the missed tests.
-"There will be a final right of appeal from the decision of the Greek Federation to the Court of Arbitration for Sport," the IAAF said.
+sport\052.txt
+Holmes will make her first track appearance on home soil since winning double Olympic gold in January's Norwich Union International in Glasgow.She added: "These events are also a great opportunity to thank the British public for the enormous levels of support they have given me from the moment I stepped off that plane from Greece."She will also run in the Grand Prix in Birmingham in February and may defend her indoor AAA 800m title in Sheffield earlier that month.
+
+sport\151.txt
+"People have talked a lot about my performances and I think I have had some months that were not so good and others that were very good."Michael Owen revelled in his return to the to the Real Madrid starting line-up and inspired a 3-1 win over Real Betis on Wednesday by scoring the first goal."I felt good all though the game and it is obvious that I am happy to have scored another goal.
+
+sport\263.txt
+Rangers manager Alex McLeish accepts he is going to be criticised after their disastrous Uefa Cup exit at the hands of Auxerre at Ibrox on Wednesday.
+McLeish told BBC Radio Five Live: "We were in pole position to get through to the next stage but we blew it, we absolutely blew it.
+"The early goal in the second half gave us a mountain to climb and we never created the same kind of chances as we did in the first half.
 
 
-sport\077.txt
-Glynn Tromans - the reigning UK Inter-Countries and England Cross-Country champion - came in third place as he continues his comeback from a five-month injury lay-off.Peter Riley, who secured bronze for the GB men's team at last month's European Championships, won the men's 9km race.Riley, representing England, moved away over the last two kilometres to win by 25 metres from Ireland's Gary Murray.
-
-sport\248.txt
-Referee Graham Poll said he applied the laws of the game in allowing Arsenal striker Thierry Henry's free-kick in Sunday's 2-2 draw with Chelsea.
-"The same thing happened when I refereed Chelsea against West Ham in an FA Cup replay two years ago - when Jimmy Floyd Hasselbaink scored - and I don't remember them complaining about that."
-Henry told BBC Radio Five Live: "The ref asked me if I wanted 10 yards or if I wanted to take it straight away and I said that I wanted to take it straight away.
+sport\281.txt
+Arsenal manager Arsene Wenger has admitted he is at a loss to explain why Newcastle are languishing in the bottom half of the table.
+The Gunners travel to St James' Park on Wednesday, with Newcastle 14th in the Premiership after a troubled season.
+"Fatigue won't play too big a part in the next few weeks as we have players coming back so I can rotate a bit more.
 
 
-sport\346.txt
-High, the Rugby Football Union's referees' manager, claimed Kaplan made three major errors which changed the outcome of Sunday's match.England will protest to the International Rugby Board (IRB) about the referee's performance in the defeat by Ireland, reports the Daily Mail.England coach Andy Robinson has called on ex-international referees Colin High and Steve Lander to analyse several of Jonathan Kaplan's decisions.
-
-sport\390.txt
-European champions Wasps are set to offer Matt Dawson a new deal.
-Dawson played a vital part in England's World Cup win last year but has fallen out of favour with new coach Andy Robinson after missing a training session in September.
-"Rugby is still my priority and there's still a burning desire within me to play the best rugby I possibly can," he said.
+sport\432.txt
+World number one Lindsay Davenport has criticised Wimbledon over the issue of equal prize money for women.
+Reacting to a disputed comment by All England Club chairman Tim Phillips, the American said: "I think it is highly insulting if prize money is taken away.
+Davenport was speaking following the announcement that this week's Dubai Duty Free event will join the US and Australian Opens in offering equal prize money for women.
 
 
-sport\428.txt
-The world number one took two hours 15 minutes to earn his 4-6 6-3 7-6 victory, saving match points at 6-4 in the tiebreak before claiming it 8-6.The world number one was forced to go the distance against Ivan Ljubicic in the Rotterdam final and against Ivo Minar in the first round in Dubai.Top seed Roger Federer had to save two match points before squeezing past Juan Carlos Ferrero at the Dubai Open.
+sport\510.txt
+Teenager Sania Mirza completed a superb week at the Hyderabad Open by becoming the first Indian in history to win a WTA singles title.
+At the Australian Open in January, Mirza became the first Indian woman to reach the third round of a Grand Slam before losing to eventual champion Serena Williams.
+In a see-saw second set, Bondarenko raced into a 5-2 lead and though Mirza hauled herself level, the Ukrainian broke again before finally levelling the match.
+
 

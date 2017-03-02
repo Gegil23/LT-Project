@@ -74,9 +74,9 @@ def G3_1(folder):
 
 
 
-#choose_radomised_texts(POLITICS, "politics")
-#choose_radomised_texts(TECH, "tech")
-#choose_radomised_texts(SPORTS, "sport")
+choose_radomised_texts(POLITICS, "politics")
+choose_radomised_texts(TECH, "tech")
+choose_radomised_texts(SPORTS, "sport")
 
 G3_1("politics")
 G3_1("tech")

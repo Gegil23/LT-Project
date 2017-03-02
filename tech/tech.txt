@@ -1,36 +1,36 @@
-tech\101.txt
-Surfers outside the US have been unable to visit the official re-election site of President George W Bush.
-The blocking does not appear to be due to an attack by vandals or malicious hackers, but as a result of a policy decision by the Bush camp.
-The international exclusion zone around georgewbush.com was spotted by net monitoring firm Netcraft which keeps an eye on traffic patterns across many different sites.
+tech\047.txt
+One in 10 adult Americans - equivalent to 22 million people - owns an MP3 player, according to a survey.
+A study by the Pew Internet and American Life Project found that MP3 players are the gadget of choice among affluent young Americans.
+"More growth in the market is inevitable as new devices become available, as new players enter the market, and as new social uses for iPods/MP3 players become popular," he added.
 
 
-tech\127.txt
-Partners of those who love their hi-tech gear may want to get their presents in early as experts predict a gadget shortage this Christmas.
-Star of the show will be Sony's Qrio Robot, an all-singing, all-dancing, football-playing man-machine who can even hold intelligent conversations.
-"Demand is huge and Apple has promised that it can supply enough but people might struggle to get their hands on iPod minis," said Mr Irish.
+tech\052.txt
+Details of the next generation of Microsoft's Xbox games console - codenamed Xenon - will most likely be unveiled in May, according to reports.
+At the Consumer Electronics Show earlier this year, there was very little mention of the next generation gaming machine.
+Gamers are looking forward to the next generation of machines because they will have much more processing and graphical power.
 
 
-tech\135.txt
-The 18 certificate GTA: San Andreas for the PlayStation 2 could have got away with merely revisiting a best-selling formula with a more-of-the-same approach.
-Clothes, tattoos and haircuts can all be purchased, and funding these habits can be achieved by criminal means or by indulging in mini-games like betting on horses and challenging bar patrons to games of pool.
-At a time when games are once again under fire for their supposed potential to corrupt the young, San Andreas' violence, or specifically the freedom it gives the player to commit violence, are sure to inflame the pro-censorship brigade.
+tech\149.txt
+Software giant Microsoft is taking the plunge into the world of blogging.
+Microsoft is trailing behind competitors like Google and AOL, which already offer services which make it easy for people to set up web journals.
+According to blog analysis firm Technorati, the so-called blogosphere, has doubled every five and a half months for the last 18 months.
 
 
-tech\283.txt
-'God games' in which players must control virtual people and societies could be educational, says research.
-For instance, he said, in a version of The Sims adapted to teach German, if a player misunderstood what was meant by the word "energie" the actions of a tired Sim, stumbling then falling asleep, would illustrate the meaning.
-A report on the experiment said: "Students began asking historical and geographical questions in the context of game play, using geography and history as tools for their game, and drawing inferences about social phenomena based on their play."
+tech\222.txt
+Pocket-sized devices that let people carry around video and images are set to have a big year in 2005, according to industry experts.
+Unlike Windows-based players, the Archos AV400 series devices have always been able to record from any video source, such as TVs, as well as playback.
+Although Microsoft's content distribution deals are for the US market at the moment, talks were "always on-going" with European content suppliers to offer similar services.
 
 
-tech\321.txt
-Consumers are very concerned about the use of radio frequency ID (RFID) tags in shops, a survey says.
-More than half of 2,000 people surveyed said they had privacy worries about the tags, which can be used to monitor stock on shelves or in warehouses.
-He said that the survey also showed people would accept RFID if they felt that the technology could mean a reduction in car theft or faster recovery of stolen items.
+tech\280.txt
+"It allows us to demonstrate a clear competitive advantage over Sky for the first time in many years," said Telewest chief executive Eric Tveter.
+With both services on offer from Telewest, Mr Tveter is confident the cable firm can dent not just the viewing figures for terrestrial TV but also gain a huge competitive advantage over Sky.
+"While Sky will remain the dominant force in UK pay TV for some time to come, NTL and Telewest seem well placed to successfully ride this second wave of VOD enthusiasm and, if marketed correctly, this could help them eat into Sky's lead," he said.
 
 
-tech\368.txt
-Data gathered will be passed to police to help build up intelligence about who is behind worm outbreaks and denial of service attacks.
-"We have seen attacks involving five and ten gigabytes of traffic," said Rob Pollard, sales director for Arbor Networks which is behind the fingerprinting system.
-"What we want to do is help net service firms communicate with each other and then push the attacks further and further back around the world to their source," said Mr Pollard.
+tech\349.txt
+BT is starting its push into television with plans to offer TV over broadband.
+"We see several opportunities for delivering the type of content that normally broadcasters find it difficult to get to viewers," said BT's Andrew Burke.
+Since it uses internet technology, IPTV could mean more choice of programmes, more, more interactivity, tailored programming, and more localised content outside of conventional satellite, digital cable, and terrestrial broadcasts.
 
 
